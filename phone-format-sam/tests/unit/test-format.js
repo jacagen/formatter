@@ -3,7 +3,6 @@
 const format = require('../../format-phone-number.js');
 const chai = require('chai');
 const expect = chai.expect;
-var event, context;
 
 describe('#format-phone-number', () => {
 
