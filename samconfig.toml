@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "phone-format-sam"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-r2gikk5xmpvn"
+s3_prefix = "phone-format-sam"
+region = "us-east-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = ["HelloWorldFunction=246113142626.dkr.ecr.us-east-2.amazonaws.com/phoneformatsam3b0d34ce/helloworldfunction19d43fc4repo"]
