@@ -1,3 +1,5 @@
+var format = require('./format-phone-number.js')
+
 // const axios = require('axios')
 // const url = 'http://checkip.amazonaws.com/';
 let response;
@@ -20,7 +22,7 @@ exports.lambdaHandler = async (event, context) => {
         response = {
             'statusCode': 200,
             'body': JSON.stringify({
-                message: 'hello world',
+                message: format(event.PHONE),
                 // location: ret.data.trim()
             })
         }
