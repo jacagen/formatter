@@ -1,10 +1,10 @@
 {
-  "name": "hello_world",
+  "name": "phone-format-sam",
   "version": "1.0.0",
-  "description": "hello world sample for NodeJS",
+  "description": "Phone number formatter",
   "main": "app.js",
-  "repository": "https://github.com/awslabs/aws-sam-cli/tree/develop/samcli/local/init/templates/cookiecutter-aws-sam-hello-nodejs",
-  "author": "SAM CLI",
+  "repository": "https://github.com/jacagen/phone-format-sam",
+  "author": "Jamie",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.21.1"

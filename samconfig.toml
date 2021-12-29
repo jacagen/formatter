@@ -8,4 +8,4 @@ s3_prefix = "phone-format-sam"
 region = "us-east-2"
 confirm_changeset = true
 capabilities = "CAPABILITY_IAM"
-image_repositories = ["HelloWorldFunction=246113142626.dkr.ecr.us-east-2.amazonaws.com/phoneformatsam3b0d34ce/helloworldfunction19d43fc4repo"]
+image_repositories = ["PhoneFormatSamFunction=246113142626.dkr.ecr.us-east-2.amazonaws.com/phoneformatsam3b0d34ce/phoneformatsamfunction7c981674repo"]
