@@ -6,6 +6,8 @@
  * @throws {RangeError} if the input cannot be formatted 
  */
 const formatPhoneNumber = (input) => {
+  /* This is very simplistic at the moment--see the case study description for potential improvements. */
+
   if (input.length != 10)
     throw new RangeError(`Bad format ${input}`)  // This *might* not be the most-suitable error type--we might want to consider a custom class?
   else
