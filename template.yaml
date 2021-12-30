@@ -30,7 +30,7 @@ Resources:
 Outputs:
   PhoneFormatSamApi:
     Description: "API Gateway endpoint URL for Prod stage for phone format function"
-    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/format/"
+    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/format?PHONE=1234567890"
   PhoneFormatSamFunction:
     Description: "Phone format Lambda Function ARN"
     Value: !GetAtt PhoneFormatSamFunction.Arn

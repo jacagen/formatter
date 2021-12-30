@@ -7,7 +7,7 @@
  */
 const formatPhoneNumber = (input) => {
   if (input.length != 10)
-    throw new RangeError(`Bad format ${input}`)
+    throw new RangeError(`Bad format ${input}`)  // This *might* not be the most-suitable error type--we might want to consider a custom class?
   else
     return input.slice(0, 3) + '-' +
       input.slice(3, 6) + '-' +
