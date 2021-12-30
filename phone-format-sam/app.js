@@ -18,11 +18,12 @@ let response;
  */
 exports.lambdaHandler = async (event, context) => {
     try {
+        const input = event.queryStringParameters.PHONE
         // const ret = await axios(url);
         response = {
             'statusCode': 200,
             'body': JSON.stringify({
-                message: format(event.PHONE),
+                message: format(input),
                 // location: ret.data.trim()
             })
         }
